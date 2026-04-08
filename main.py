@@ -1,9 +1,17 @@
 import time
 
-#User Notes:
+def User_Notes():
   #The password is password
   #The password can be changed in Startup.py > Password() > <settings>
   #To begin installation media instead of normal boot, set the Installation variable to 1
+
+def CreditsAndVersion():
+  time.sleep(0.3)
+  print("github.com/AhmedLolyProductions")
+  time.sleep(1)
+  print("LolyOS v1.0.0")
+  print("\n" * 2)
+  time.sleep(1)
 
 def Install():
   print("Please select an installation media to begin")
@@ -70,6 +78,7 @@ def Install():
     print("\n")
     BIOS()
 def BIOS():
+  CreditsAndVersion()
   #<settings>
   Installation = 0
   #</settings>
