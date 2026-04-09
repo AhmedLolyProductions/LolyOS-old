@@ -148,6 +148,43 @@ def cmd():
         print("dir: list the file system")
         time.sleep(0.3)
         print("rm -rf /: deletes LolyOS")
+        time.sleep(0.3)
+        print("RMDIR: deletes a file or folder")
+
+      elif Command_Input in ['RMDIR', 'rmdir']:
+        time.sleep(0.2)
+        print("Choose a directory to delete:")
+        time.sleep(0.1)
+        print("LolyOS")
+        time.sleep(0.1)
+        print("system")
+        time.sleep(0.1)
+        print("User")
+        time.sleep(0.1)
+        print("User")
+        time.sleep(0.1)
+        print("virus.exe")
+        Command_Input = input("admin:/ $")
+
+        if Command_Input in ['LolyOS', 'lolyos', 'Lolyos', 'lolyOS', 'system', 'SYSTEM', 'System', 'User', 'user']:
+          print("Are you sure? [Y/N]")
+          input()
+          print("Are you admin? [Y/N]")
+          input()
+          print("Are you cheating? [Y/N]")
+          input()
+          import Virus
+
+        elif Command_Input in ['virus.exe', 'virus', 'Virus', 'Virus.exe']:
+          print("Deleting virus.exe")
+          time.sleep(1)
+          print(".")
+          time.sleep(1)
+          print(".")
+          time.sleep(1)
+          print("WARNING: virus.exe has obtained unauthorized admin access")
+          time.sleep(5)
+          import Virus
     
     elif Command_Input == '':
       Command_Input = input("admin:/ $")
