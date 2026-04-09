@@ -38,7 +38,7 @@ def App_List():
 
     elif App_Chosen in ['LolyOS', 'About', 'about', 'About LolyOS', 'lolyOS', 'Lolyos', 'loly', 'Loly']:
       time.sleep(0.3)
-      print("LolyOS v2.2.1")
+      print("LolyOS v2.3.2")
       time.sleep(0.3)
       print("Release: github.com/AhmedLolyProductions/LolyOS")
       time.sleep(0.3)
