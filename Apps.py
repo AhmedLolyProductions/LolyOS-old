@@ -75,7 +75,7 @@ def App_List():
 def cmd():
   print("\n" * 41)
   time.sleep(3)
-  print("cmd by LolyProductions")
+  print("LolyOS  Copyright (C) 2026  AhmedLolyProductions")
   time.sleep(0.4)
   print("To exit cmd, enter 'quit' or 'exit'")
   time.sleep(0.4)
