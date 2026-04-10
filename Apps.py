@@ -36,7 +36,7 @@ def App_List():
     elif App_Chosen in ['shutdown', 'Shutdown']:
       import Logout
 
-    elif App_Chosen in ['LolyOS', 'About', 'about', 'About LolyOS', 'lolyOS', 'Lolyos', 'loly', 'Loly', 'about lolyos']:
+    elif App_Chosen in ['LolyOS', 'About', 'about', 'About LolyOS', 'lolyOS', 'Lolyos', 'loly', 'Loly']:
       time.sleep(0.3)
       print("LolyOS v2.3.3")
       time.sleep(0.3)
@@ -62,7 +62,7 @@ def App_List():
       import Virus
     
     else:
-      if counter < 7:
+      if counter == 7:
         print("Too many invalid inputs")
         time.sleep(2)
         print("A fatal error has been downloaded from error.com")
