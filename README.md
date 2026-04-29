@@ -6,4 +6,5 @@
 > The `index.html` is to run the Python in the browser (iframe that loads pickcode.io)
 
 > [!IMPORTANT]
-> I am going to archive this repository and make a new one. It has gotten too messed up and I have lost count of the versions and the amount of bugs is insane. I will not copy the code, instead I will start from scratch (v1.0.0)
+> This repository has been abandoned because it is too messed up with too many bugs and errors.<br>
+> The new version of the code is hosted at [github.com/AhmedLolyProductions/LolyOS](https://github.com/AhmedLolyProductions/LolyOS)
